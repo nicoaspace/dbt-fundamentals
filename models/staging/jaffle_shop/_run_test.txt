@@ -1,0 +1,4 @@
+these are some of the ways to run specific tests:
+dbt test --select source:jaffle_shop
+dbt test --select source:*
+dbt test --select stg_jaffle_shop__orders

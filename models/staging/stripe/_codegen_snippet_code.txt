@@ -1,0 +1,2 @@
+change the extention format of this file to SQL and run it to know the sources of a given schema 
+{{ codegen.generate_source(schema_name= 'stripe', database_name= 'raw') }}
